@@ -52,7 +52,7 @@ class resourcelibraryfields_test extends local_resourcelibrary_testcase {
      * Test creating course with resourcelibrary custom fields and retrieving them
      * @covers \delete_course
      */
-    public function test_create_course() {
+    public function test_create_course(): void {
         global $DB;
         $dg = $this->getDataGenerator();
         $data = ['shortname' => 'SN', 'fullname' => 'FN',
@@ -79,7 +79,7 @@ class resourcelibraryfields_test extends local_resourcelibrary_testcase {
      * Test backup and restore of custom fields
      * @covers \backup_controller
      */
-    public function test_restore_course_resourcelibraryfields() {
+    public function test_restore_course_resourcelibraryfields(): void {
         global $USER;
         $dg = $this->getDataGenerator();
         $data = [

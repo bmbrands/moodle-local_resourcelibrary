@@ -50,7 +50,7 @@ class api_test extends local_resourcelibrary_testcase {
      * @covers \local_resourcelibrary\local_resourcelibrary_external::get_filtered_courses
      * @runInSeparateProcess
      */
-    public function test_get_filtered_courses_simple() {
+    public function test_get_filtered_courses_simple(): void {
         global $CFG;
         require_once($CFG->dirroot . '/local/resourcelibrary/externallib.php');
 
