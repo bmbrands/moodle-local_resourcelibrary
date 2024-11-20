@@ -99,7 +99,6 @@
 
 .resourcelibrary-filters-form #fgroup_id_buttonar .col-form-label {
     display: none !important;
-    /* stylelint-disable-line declaration-no-important */
 }
 
 .resourcelibrary-content a.item-view .icon {

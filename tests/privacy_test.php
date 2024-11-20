@@ -32,7 +32,7 @@ use local_resourcelibrary\privacy\provider;
  * @copyright  2020 CALL Learning 2020 - Laurent David laurent@call-learning.fr
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class privacy_test extends \core_privacy\tests\provider_testcase {
+final class privacy_test extends \core_privacy\tests\provider_testcase {
     /**
      * Ensure that export_user_preferences returns no data if the user has not visited the library page.
      * @covers \local_resourcelibrary\privacy\provider::export_user_preferences

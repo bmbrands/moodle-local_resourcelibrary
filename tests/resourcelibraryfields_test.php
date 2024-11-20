@@ -46,7 +46,7 @@ require_once($CFG->dirroot . '/local/resourcelibrary/tests/lib.php');
  * @copyright  2020 CALL Learning 2020 - Laurent David laurent@call-learning.fr
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class resourcelibraryfields_test extends local_resourcelibrary_testcase {
+final class resourcelibraryfields_test extends local_resourcelibrary_testcase {
 
     /**
      * Test creating course with resourcelibrary custom fields and retrieving them
