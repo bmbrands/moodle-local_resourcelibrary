@@ -74,9 +74,6 @@ $string['enableresourcelibrary'] = 'Enable Resource Library';
 $string['filters'] = 'Filters';
 $string['filter:anyvalue'] = 'Any';
 $string['filter:submit'] = 'Filter';
-$string['resourcelibrary:activateactivitylibrary'] = 'Activate Activity library';
-$string['resourcelibrary:activateactivitylibrary:desc'] =
-    'The activity library is similar to the course library but for activities';
 $string['resourcelibrary:manage'] = 'Can manage Resource Library';
 $string['resourcelibrary:managefields'] = 'Can manage Resource Library Fields';
 $string['resourcelibrary:editvalue'] = 'Can edit Resource Library Custom Field values';

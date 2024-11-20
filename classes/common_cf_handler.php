@@ -81,7 +81,7 @@ trait common_cf_handler {
         if ($instanceid) {
             $context = $this->get_instance_context($instanceid);
             return (!$field->get_configdata_property('locked') ||
-                has_capability('local/resourcelibrary::changelockedcustomfields', $context));
+                has_capability('local/resourcelibrary:changelockedcustomfields', $context));
         } else {
             $context = $this->get_parent_context();
             return (!$field->get_configdata_property('locked') ||

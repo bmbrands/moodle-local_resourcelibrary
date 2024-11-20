@@ -41,14 +41,6 @@ function xmldb_local_resourcelibrary_upgrade($oldversion) {
         upgrade_plugin_savepoint(true, 2020042002, 'local', 'resourcelibrary');
     }
 
-    if ($oldversion < 2020042003) {
-        \local_resourcelibrary\locallib\setup::setup_resourcelibrary_custom_fields();
-        upgrade_plugin_savepoint(true, 2020042003, 'local', 'resourcelibrary');
-    }
-    if ($oldversion < 2020042005) {
-        \local_resourcelibrary\locallib\setup::setup_resourcelibrary_custom_fields();
-        upgrade_plugin_savepoint(true, 2020042005, 'local', 'resourcelibrary');
-    }
     if ($oldversion < 2020042006) {
         upgrade_plugin_savepoint(true, 2020042006, 'local', 'resourcelibrary');
     }
